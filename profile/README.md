@@ -1,4 +1,6 @@
-# Hello! This is BeyondTheCloudDev 👋
+# Hello! This is BeyondTheCloud.Dev 👋
+
+We are Salesforce geeks. ☁︎
 
 Our blog: https://beyondthecloud.dev/blog 🧑‍💻
 
@@ -10,4 +12,4 @@ Our blog: https://beyondthecloud.dev/blog 🧑‍💻
 - 💼 [Unit Of Work](https://github.com/beyond-the-cloud-dev/unit-of-work)
 
 ### LWC Frameworks
-- 🧖‍♀️ [Single Page Application](https://github.com/beyond-the-cloud-dev/lwc-spa)
+- 💆 [Single Page Application](https://github.com/beyond-the-cloud-dev/lwc-spa)
