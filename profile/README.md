@@ -6,7 +6,7 @@ Our blog: https://beyondthecloud.dev/blog 🧑‍💻
 
 ## What you can find here? 🔍
 
-### Salesfroce Apex Frameworks
+### Apex Frameworks
 
 - <span style="display: flex; align-items: center; gap: 20px;">![100%](https://progress-bar.dev/100)  🏭  [Test Data Factory](https://github.com/beyond-the-cloud-dev/apex-test-data-factory)</span>
 - <span style="display: flex; align-items: center; gap: 20px;">![100%](https://progress-bar.dev/100) 📉  [Constants](https://github.com/beyond-the-cloud-dev/apex-consts)</span>
