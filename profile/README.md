@@ -17,24 +17,3 @@ Our blog: https://beyondthecloud.dev/blog 🧑‍💻
 
 ### LWC Frameworks
 - <span style="display: flex; align-items: center; gap: 20px;">![100%](https://progress-bar.dev/100) 💆 [Single Page Application](https://github.com/beyond-the-cloud-dev/lwc-spa)</span>
-
-<table>
-<tr>
-<td> Short version </td>
-<td> Regular version </td>
-<td> Description </td>
-<td> Example </td>
-</tr>
-<tr>
-<td> lightning-button </td>
-<td> lightning-button </td>
-<td> lightning-button </td>
-<td>
-
-```html
-<lightning-button variant='base' label='label' title='title' onclick={handleOnClick} class='cssClass'>
-</lightning-button>
-```
-</td>
-</tr>
-</table>
