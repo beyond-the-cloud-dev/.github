@@ -20,4 +20,4 @@ Our blog: https://beyondthecloud.dev/blog 🧑‍💻
 
 
 ### LWC Frameworks
-- <span style="display: flex; align-items: center; gap: 20px;">![100%](https://progress-bar.dev/100) 💆 [Single Page Application](https://github.com/beyond-the-cloud-dev/lwc-spa)</span>
+- <span style="display: flex; align-items: center; gap: 20px;">![128%](https://progress-bar.dev/128) 💆 [Single Page Application](https://github.com/beyond-the-cloud-dev/lwc-spa)</span>
