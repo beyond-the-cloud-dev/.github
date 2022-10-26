@@ -7,7 +7,7 @@ Our blog: https://beyondthecloud.dev/blog 🧑‍💻
 ## What you can find here? 🔍
 
 ### VSC Extensions
-- <span style="display: flex; align-items: center; gap: 20px;">![64%](https://progress-bar.dev/64) 🧑‍💻 [VSC Salesforce Snippets](https://github.com/beyond-the-cloud-dev/vsc-salesforce-code-snippets)</span> 
+- <span style="display: flex; align-items: center; gap: 20px;">![128%](https://progress-bar.dev/128) 🧑‍💻 [VSC Salesforce Snippets](https://github.com/beyond-the-cloud-dev/vsc-salesforce-code-snippets)</span> 
 
 ### Apex Frameworks
 
