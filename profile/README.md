@@ -8,7 +8,7 @@ Our blog: https://beyondthecloud.dev/blog 🧑‍💻
 
 ### VSC Extensions
 - <span style="display: flex; align-items: center; gap: 20px;">![128%](https://progress-bar.dev/128) 🧑‍💻 [VSC Salesforce Snippets]([https://github.com/beyond-the-cloud-dev/vsc-salesforce-code-snippets](https://marketplace.visualstudio.com/items?itemName=BeyondTheCloud.salesforce-snippets-beyondthecloud))</span>
-- <span style="display: flex; align-items: center; gap: 20px;">![128%](https://progress-bar.dev/128) 🧑‍💻 [Salesforce Custom Labels Creator]([https://github.com/beyond-the-cloud-dev/vsc-salesforce-code-snippets](https://marketplace.visualstudio.com/items?itemName=BeyondTheCloud.salesforce-custom-labels-beyondthecloud))</span> 
+- <span style="display: flex; align-items: center; gap: 20px;">![128%](https://progress-bar.dev/128) 🧑‍💻 [VSC Salesforce Custom Labels Creator]([https://github.com/beyond-the-cloud-dev/vsc-salesforce-code-snippets](https://marketplace.visualstudio.com/items?itemName=BeyondTheCloud.salesforce-custom-labels-beyondthecloud))</span> 
 
 
 ### Apex Frameworks
