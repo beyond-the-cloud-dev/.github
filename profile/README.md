@@ -4,6 +4,8 @@ We are Salesforce geeks. ☁︎
 
 Our blog: https://beyondthecloud.dev/blog 🧑‍💻
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buycoffee.to/beyondthecloud)
+
 ## What you can find here? 🔍
 
 ### VSC Extensions
