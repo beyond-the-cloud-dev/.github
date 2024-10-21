@@ -9,15 +9,16 @@ Our blog: https://beyondthecloud.dev/blog 🧑‍💻
 ## What you can find here? 🔍
 
 ### VSC Extensions
-- [VSC Salesforce Snippets](https://marketplace.visualstudio.com/items?itemName=BeyondTheCloud.salesforce-snippets-beyondthecloud)</span>
-- [VSC Salesforce Custom Labels Creator](https://marketplace.visualstudio.com/items?itemName=BeyondTheCloud.salesforce-custom-labels-beyondthecloud)</span> 
+- [VSC Salesforce Snippets](https://marketplace.visualstudio.com/items?itemName=BeyondTheCloud.salesforce-snippets-beyondthecloud)
+- [VSC Salesforce Custom Labels Creator](https://marketplace.visualstudio.com/items?itemName=BeyondTheCloud.salesforce-custom-labels-beyondthecloud)
 
 
 ### Apex Frameworks
 
-- [SOQL Lib](https://github.com/beyond-the-cloud-dev/query-selector)</span>
-- [Apex Constants](https://github.com/beyond-the-cloud-dev/apex-consts)</span>
-- [Trigger Framework](https://github.com/beyond-the-cloud-dev/trigger-framework)</span>
+- [SOQL Lib](https://github.com/beyond-the-cloud-dev/query-selector)
+- [HTTP Mock Lib](https://github.com/beyond-the-cloud-dev/http-mock-lib)
+- [Apex Constants](https://github.com/beyond-the-cloud-dev/apex-consts)
+- [Trigger Framework](https://github.com/beyond-the-cloud-dev/trigger-framework)
 
 ### LWC Frameworks
 - [Single Page Application](https://github.com/beyond-the-cloud-dev/lwc-spa)</span>
