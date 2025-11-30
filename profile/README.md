@@ -17,6 +17,7 @@ Our blog: https://blog.beyondthecloud.dev/blog 🧑‍💻
 
 - [SOQL Lib](https://github.com/beyond-the-cloud-dev/query-selector)
 - [Async Lib](https://github.com/beyond-the-cloud-dev/async-lib)
+- [DML Lib](https://github.com/beyond-the-cloud-dev/dml-lib)
 - [HTTP Mock Lib](https://github.com/beyond-the-cloud-dev/http-mock-lib)
 - [Cache Manager](https://github.com/beyond-the-cloud-dev/cache-manager)
 - [Apex Constants](https://github.com/beyond-the-cloud-dev/apex-consts)
