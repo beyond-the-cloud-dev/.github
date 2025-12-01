@@ -2,9 +2,8 @@
 
 We are Salesforce geeks. ☁︎
 
-Our blog: https://blog.beyondthecloud.dev/blog 🧑‍💻
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buycoffee.to/beyondthecloud)
+Our [technical blog](https://blog.beyondthecloud.dev/blog) 🧑‍💻
+Check our open-source - [Apex Fluently](https://apexfluently.beyondthecloud.dev/).
 
 ## What can you find here? 🔍
 
