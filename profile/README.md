@@ -8,11 +8,6 @@ Check our open-source - [Apex Fluently](https://apexfluently.beyondthecloud.dev/
 
 ## What can you find here? 🔍
 
-### VSC Extensions
-
-- [VSC Salesforce Snippets](https://marketplace.visualstudio.com/items?itemName=BeyondTheCloud.salesforce-snippets-beyondthecloud)
-- [VSC Salesforce Custom Labels Creator](https://marketplace.visualstudio.com/items?itemName=BeyondTheCloud.salesforce-custom-labels-beyondthecloud)
-
 ### Apex Frameworks
 
 - [SOQL Lib](https://github.com/beyond-the-cloud-dev/query-selector)
@@ -26,3 +21,8 @@ Check our open-source - [Apex Fluently](https://apexfluently.beyondthecloud.dev/
 
 - [LWC Utils](https://github.com/beyond-the-cloud-dev/lwc-utils)
 - [Single Page Application](https://github.com/beyond-the-cloud-dev/lwc-spa)
+
+### VSC Extensions
+
+- [VSC Salesforce Snippets](https://marketplace.visualstudio.com/items?itemName=BeyondTheCloud.salesforce-snippets-beyondthecloud)
+- [VSC Salesforce Custom Labels Creator](https://marketplace.visualstudio.com/items?itemName=BeyondTheCloud.salesforce-custom-labels-beyondthecloud)
