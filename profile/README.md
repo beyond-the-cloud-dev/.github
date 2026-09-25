@@ -6,9 +6,9 @@
     </picture>
   </a>
 
-  <h3>We fix the Salesforce orgs nobody wants to touch.</h3>
+  <h3>We make Salesforce reliable, predictable, fast and secure.</h3>
 
-  <p>Senior-only team. The tools we build on client work end up here, open source.</p>
+  <p>Technical debt resolution and AI implementation for enterprise teams where Salesforce became the bottleneck.</p>
 
   <a href="https://beyondthecloud.dev">Website</a> &nbsp;·&nbsp;
   <a href="https://apexfluently.beyondthecloud.dev">Apex Fluently</a> &nbsp;·&nbsp;
