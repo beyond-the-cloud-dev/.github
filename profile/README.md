@@ -8,7 +8,7 @@
 
   <h3>We fix the Salesforce orgs nobody wants to touch.</h3>
 
-  <p>Senior-only team from Poland. The tools we build on client work end up here, open source.</p>
+  <p>Senior-only team. The tools we build on client work end up here, open source.</p>
 
   <a href="https://beyondthecloud.dev">Website</a> &nbsp;·&nbsp;
   <a href="https://apexfluently.beyondthecloud.dev">Apex Fluently</a> &nbsp;·&nbsp;
@@ -48,9 +48,9 @@
 <h3 align="center">Products</h3>
 
 <p align="center">
-  <a href="https://veles.beyondthecloud.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/beyond-the-cloud-dev/.github/refs/heads/docs/profile-readme/assets/cards/veles-dark.svg"><img src="https://raw.githubusercontent.com/beyond-the-cloud-dev/.github/refs/heads/docs/profile-readme/assets/cards/veles-light.svg" width="240" alt="Veles: Sandbox and scratch org setup"></picture></a>
-  <a href="https://releasenotifier.beyondthecloud.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/beyond-the-cloud-dev/.github/refs/heads/docs/profile-readme/assets/cards/release-notifier-dark.svg"><img src="https://raw.githubusercontent.com/beyond-the-cloud-dev/.github/refs/heads/docs/profile-readme/assets/cards/release-notifier-light.svg" width="240" alt="Release Notifier: In-app release notes"></picture></a>
-  <a href="https://isvanalytics.beyondthecloud.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/beyond-the-cloud-dev/.github/refs/heads/docs/profile-readme/assets/cards/isv-analytics-dark.svg"><img src="https://raw.githubusercontent.com/beyond-the-cloud-dev/.github/refs/heads/docs/profile-readme/assets/cards/isv-analytics-light.svg" width="240" alt="ISV Analytics: Usage analytics for ISVs"></picture></a>
+  <a href="https://veles.beyondthecloud.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/beyond-the-cloud-dev/.github/refs/heads/docs/profile-readme/assets/cards/veles-dark.svg"><img src="https://raw.githubusercontent.com/beyond-the-cloud-dev/.github/refs/heads/docs/profile-readme/assets/cards/veles-light.svg" width="240" alt="Veles: Secure config across every org"></picture></a>
+  <a href="https://releasenotifier.beyondthecloud.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/beyond-the-cloud-dev/.github/refs/heads/docs/profile-readme/assets/cards/release-notifier-dark.svg"><img src="https://raw.githubusercontent.com/beyond-the-cloud-dev/.github/refs/heads/docs/profile-readme/assets/cards/release-notifier-light.svg" width="240" alt="Release Notifier: Turn releases into adoption"></picture></a>
+  <a href="https://isvanalytics.beyondthecloud.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/beyond-the-cloud-dev/.github/refs/heads/docs/profile-readme/assets/cards/isv-analytics-dark.svg"><img src="https://raw.githubusercontent.com/beyond-the-cloud-dev/.github/refs/heads/docs/profile-readme/assets/cards/isv-analytics-light.svg" width="240" alt="ISV Analytics: AppExchange usage monitoring"></picture></a>
 </p>
 
 <br>
@@ -64,3 +64,5 @@
 <p align="center">
   <a href="https://beyondthecloud.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/beyond-the-cloud-dev/.github/refs/heads/docs/profile-readme/assets/salesforce-partner.png"><img src="https://raw.githubusercontent.com/beyond-the-cloud-dev/.github/refs/heads/docs/profile-readme/assets/salesforce-partner-solid.png" height="40" alt="Salesforce Partner"></picture></a>
 </p>
+
+<p align="center"><sub>Made in Poland &nbsp;<img src="https://raw.githubusercontent.com/beyond-the-cloud-dev/.github/refs/heads/docs/profile-readme/assets/flag-pl.svg" height="11" alt="Polish flag"></sub></p>

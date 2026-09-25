@@ -25,9 +25,9 @@ CARDS = [
     ("test-lib", "Test Lib", "Test data builders"),
     ("apex-consts", "Apex Consts", "No more magic strings"),
     ("cache-manager", "Cache Manager", "One API for Platform Cache"),
-    ("veles", "Veles", "Sandbox and scratch org setup"),
-    ("release-notifier", "Release Notifier", "In-app release notes"),
-    ("isv-analytics", "ISV Analytics", "Usage analytics for ISVs"),
+    ("veles", "Veles", "Secure config across every org"),
+    ("release-notifier", "Release Notifier", "Turn releases into adoption"),
+    ("isv-analytics", "ISV Analytics", "AppExchange usage monitoring"),
 ]
 
 THEMES = {
