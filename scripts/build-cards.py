@@ -60,7 +60,7 @@ BLUE = "#2AABE2"
 FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"
 PAD = 6
 W, H = 188, 132
-ICON = 44
+ICON_W, ICON_H = 60, 44
 
 
 def pill(label, t):
@@ -97,7 +97,7 @@ def card(slug, name, desc, status, t):
 <rect x="{PAD}" y="{PAD}" width="{W}" height="{H}" rx="14" fill="{t["card"]}" filter="url(#shadow)"/>
 <rect x="{PAD}" y="{PAD}" width="{W}" height="{H}" rx="14" fill="url(#glow)"/>
 <rect x="{PAD + 0.5}" y="{PAD + 0.5}" width="{W - 1}" height="{H - 1}" rx="13.5" fill="none" stroke="url(#edge)"/>
-<image href="data:image/png;base64,{icon}" x="{cx - ICON / 2}" y="{PAD + 20}" width="{ICON}" height="{ICON}"/>
+<image href="data:image/png;base64,{icon}" x="{cx - ICON_W / 2}" y="{PAD + 20}" width="{ICON_W}" height="{ICON_H}"/>
 <text x="{cx}" y="{PAD + 88}" text-anchor="middle" font-size="15" font-weight="600" fill="{t["name"]}">{escape(name)}</text>
 <text x="{cx}" y="{PAD + 108}" text-anchor="middle" font-size="11.5" fill="{t["desc"]}">{escape(desc)}</text>
 {pill(status, t) if status else ""}
