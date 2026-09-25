@@ -16,17 +16,18 @@ ICONS = ROOT / "assets" / "icons"
 OUT = ROOT / "assets" / "cards"
 
 CARDS = [
-    ("soql-lib", "SOQL Lib", "Query builder, selectors", None),
-    ("dml-lib", "DML Lib", "Unit of work you can mock", None),
-    ("async-lib", "Async Lib", "Queueable, batch, schedule", None),
-    ("http-mock-lib", "HTTP Mock Lib", "Callout mocks in one line", None),
-    ("apex-consts", "Apex Consts", "No more magic strings", None),
-    ("cache-manager", "Cache Manager", "One API for Platform Cache", None),
-    ("test-lib", "Test Lib", "Test data builders", "Beta"),
-    ("trigger-lib", "Trigger Lib", "Trigger framework", "WIP"),
-    ("veles", "Veles", "Sandbox and scratch org setup", None),
-    ("release-notifier", "Release Notifier", "In-app release notes", None),
-    ("isv-analytics", "ISV Analytics", "Usage analytics for ISVs", None),
+    ("soql-lib", "SOQL Lib", "Query builder, selectors"),
+    ("dml-lib", "DML Lib", "Unit of work you can mock"),
+    ("async-lib", "Async Lib", "Queueable, batch, schedule"),
+    ("callout-lib", "Callout Lib", "Fluent HTTP callouts"),
+    ("http-mock-lib", "HTTP Mock Lib", "Callout mocks in one line"),
+    ("trigger-lib", "Trigger Lib", "Trigger framework"),
+    ("test-lib", "Test Lib", "Test data builders"),
+    ("apex-consts", "Apex Consts", "No more magic strings"),
+    ("cache-manager", "Cache Manager", "One API for Platform Cache"),
+    ("veles", "Veles", "Sandbox and scratch org setup"),
+    ("release-notifier", "Release Notifier", "In-app release notes"),
+    ("isv-analytics", "ISV Analytics", "Usage analytics for ISVs"),
 ]
 
 THEMES = {
@@ -39,8 +40,6 @@ THEMES = {
         "glow": 0.10,
         "shadow": "#1f2328",
         "shadow_opacity": 0.10,
-        "pill_text": "#0b6fa0",
-        "pill_fill": 0.10,
     },
     "dark": {
         "card": "#151b23",
@@ -51,32 +50,18 @@ THEMES = {
         "glow": 0.18,
         "shadow": "#2AABE2",
         "shadow_opacity": 0.16,
-        "pill_text": "#6cc6f0",
-        "pill_fill": 0.14,
     },
 }
 
 BLUE = "#2AABE2"
 FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"
 PAD = 6
-W, H = 188, 132
-ICON_W, ICON_H = 60, 44
+W, H = 228, 136
+ICON_W, ICON_H = 64, 48
 
 
-def pill(label, t):
-    text = label.upper()
-    width = round(len(text) * 6.4 + 16)
-    x = PAD + W - width - 10
-    y = PAD + 10
-    return (
-        f'<rect x="{x}" y="{y}" width="{width}" height="18" rx="9" fill="{BLUE}" '
-        f'fill-opacity="{t["pill_fill"]}" stroke="{BLUE}" stroke-opacity=".35"/>'
-        f'<text x="{x + width / 2}" y="{y + 12.5}" text-anchor="middle" font-size="9.5" '
-        f'font-weight="600" letter-spacing=".6" fill="{t["pill_text"]}">{escape(text)}</text>'
-    )
 
-
-def card(slug, name, desc, status, t):
+def card(slug, name, desc, t):
     icon = base64.b64encode((ICONS / f"{slug}.png").read_bytes()).decode()
     cx = PAD + W / 2
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W + 2 * PAD}" height="{H + 2 * PAD}" viewBox="0 0 {W + 2 * PAD} {H + 2 * PAD}" font-family="{FONT}">
@@ -98,18 +83,17 @@ def card(slug, name, desc, status, t):
 <rect x="{PAD}" y="{PAD}" width="{W}" height="{H}" rx="14" fill="url(#glow)"/>
 <rect x="{PAD + 0.5}" y="{PAD + 0.5}" width="{W - 1}" height="{H - 1}" rx="13.5" fill="none" stroke="url(#edge)"/>
 <image href="data:image/png;base64,{icon}" x="{cx - ICON_W / 2}" y="{PAD + 20}" width="{ICON_W}" height="{ICON_H}"/>
-<text x="{cx}" y="{PAD + 88}" text-anchor="middle" font-size="15" font-weight="600" fill="{t["name"]}">{escape(name)}</text>
-<text x="{cx}" y="{PAD + 108}" text-anchor="middle" font-size="11.5" fill="{t["desc"]}">{escape(desc)}</text>
-{pill(status, t) if status else ""}
+<text x="{cx}" y="{PAD + 92}" text-anchor="middle" font-size="15" font-weight="600" fill="{t["name"]}">{escape(name)}</text>
+<text x="{cx}" y="{PAD + 112}" text-anchor="middle" font-size="11.5" fill="{t["desc"]}">{escape(desc)}</text>
 </svg>
 """
 
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
-    for slug, name, desc, status in CARDS:
+    for slug, name, desc in CARDS:
         for theme, t in THEMES.items():
-            (OUT / f"{slug}-{theme}.svg").write_text(card(slug, name, desc, status, t))
+            (OUT / f"{slug}-{theme}.svg").write_text(card(slug, name, desc, t))
     print(f"Wrote {len(CARDS) * len(THEMES)} cards to {OUT.relative_to(ROOT)}")
 
 
