@@ -6,7 +6,7 @@
     </picture>
   </a>
 
-  <h3>We make Salesforce reliable, predictable, fast and secure.</h3>
+  <h3>We don't just consult. We create.</h3>
 
   <p>Technical debt resolution and AI implementation for enterprise teams where Salesforce became the bottleneck.</p>
 
